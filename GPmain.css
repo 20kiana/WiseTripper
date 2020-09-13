@@ -10,6 +10,7 @@
   padding-bottom: 100%;
 }
 
+
 /* Navigation */
 #sidenav {
     height: 100%;
@@ -197,6 +198,7 @@ margin: 10px;
 #search_form {
 width: 300px;
 margin-left: 410px;
+color: black
 }
 
 /* Spotlight */
@@ -235,7 +237,7 @@ margin-left: 410px;
   
   input[type=submit] {
     background-color: #9b8d8f;
-    color: white;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -541,3 +543,4 @@ h1, h2, h3, h4, h5, h6{
 html{
   background-color: #46344e;
 }
+
