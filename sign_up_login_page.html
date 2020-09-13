@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="GPmain.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <title>WT Login/ Sign-Up</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <div id="sidenav">
+            <ul class="section-list">
+              <li class="section-tab" id="logo"><a id="resizeImage" href="GP.html"><img src="groupProjectLogoUpsideDown.jpg" alt="Logo" width="65px" height="65px"> </a></li>
+              <li class="section-tab"><a href="search_page.html">Search</a></li>
+              <li class="section-tab"><a href="mytravelpage.html">My Travel</a></li>
+              <li class="section-tab"><a href="Group Project Spotlight.html">Spotlight</a></li>
+              <li class="section-tab"><a href="Group Project About.html">About</a></li>
+              <li class="section-tab"><a href="sign_up_login_page.html">Join/ Sign Up</a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+      <main id="override-margin" class="search_container container-fluid bg-1 text-center">
+        <br>
+        <br>
+        <div class="card" style="background-color: #5a5560;">
+          <h3>Log In</h3>
+          <form id='login'>
+            <label for="email">Email</label>
+            <input
+              name="email"
+              type="email"
+              placeholder="Enter Email Address"
+            />
+            <label for="password">Password</label>
+            <input
+              name="password"
+              placeholder="Enter Password"
+              type="password"
+            />
+            <input type="submit" value="SIGN IN" />
+            <a href="/forgot-password.html">Forgot Password?</a>
+          </form>
+        </div>
+        <br>
+        <br>
+        <div class="card" style="background-color: #5a5560;">
+          <h3>Sign Up</h3>
+          <form id='register'>
+            <label for="name">Name</label>
+            <input name="name" type="text" placeholder="Enter Email Address" />
+            <label for="email">Email</label>
+            <input
+              name="email"
+              type="email"
+              placeholder="Enter Email Address"
+            />
+            <br>
+            <label for="password">Password</label>
+            <input
+              name="password"
+              placeholder="Enter Password"
+              type="password"
+            />
+            <label for="confirmPassword">Retype Password</label>
+            <input
+              name="confirmPassword"
+              placeholder="Retype Password"
+              type="password"
+            />
+            <div class='checkbox'>
+              <input type="checkbox" name="travelUpdates" /> I want to receive
+              emails about the latest travel updates for my saved locations
+            </div>
+            <div class='checkbox'>
+              <input type="checkbox" name="newLocationUpdates" /> I want to
+              receive emails when new locations are added to Global Travel
+              Planner
+            </div>
+            <input type="submit" value="SIGN UP" />
+            <br>
+            <br>
+          </form>
+        </div>
+      </main>
+      <br>
+      <br>
+    </div>
+  </body>
+  <footer>
+    <a href="#top">Back to Top </a>
+    <div class="footer_space">
+       <p>Code First Girls</p>
+       <p>© 2020 Wise Tripper Limited - All Rights Reserved.</p>
+    </div>
+  </footer>
+</html>

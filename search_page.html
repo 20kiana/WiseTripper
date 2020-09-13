@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="GPmain.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Search Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <div id="sidenav">
+            <ul class="section-list">
+              <li class="section-tab" id="logo"><a id="resizeImage" href="GP.html"><img src="groupProjectLogoUpsideDown.jpg" alt="Logo" width="65px" height="65px"> </a></li>
+              <li class="section-tab"><a href="search_page.html">Search</a></li>
+              <li class="section-tab"><a href="mytravelpage.html">My Travel</a></li>
+              <li class="section-tab"><a href="Group Project Spotlight.html">Spotlight</a></li>
+              <li class="section-tab"><a href="Group Project About.html">About</a></li>
+              <li class="section-tab"><a href="sign_up_login_page.html">Join/ Sign Up</a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+    <div id="override-margin" class="search_container container-fluid bg-1 text-center">
+        <h2>Search</h2>
+        <form id="search_form" onsubmit="searchSubmit(event)">
+        <input type="text" placeholder="Search a country..."name="search_input" id="searchBox">
+        <input type="submit" value="submit">
+      </form>
+
+      <div id="search_results main">
+        <br>
+        <div class="search_result" data-countryName="United Kingdom"><a href="Group Project Spotlight.html">United Kingdom</a></div>
+        <div class="search_result"data-countryName="France"><a href="country_page.html">France</a></div>
+        <div class="search_result" data-countryName="Japan"><a href="japan_page.html">Japan</a></div>
+        <div class="search_result"data-countryName="Australia"><a href="australia_page.html">Australia</a></div>
+        <div class="search_result"data-countryName="United States"><a href="us_page.html">United States</a></div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <a href="#top">Back to Top </a>
+    <div class="footer_space">
+       <p>Code First Girls</p>
+       <p>© 2020 Wise Tripper Limited - All Rights Reserved.</p>
+    </div>
+  </footer>
+</html>
